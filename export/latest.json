@@ -1,0 +1,295 @@
+{
+  "generated_at": "2026-10-09T16:16:13.833644+00:00",
+  "source": "noaa-swpc",
+  "realtime": {
+    "kp": {
+      "value": 2.0,
+      "time": "2026-10-09T12:00:00"
+    },
+    "wind": {
+      "speed": 353.0,
+      "density": 4.75,
+      "temp": 60484.0,
+      "time": "2026-10-08T16:13:00",
+      "source": "SOLAR1"
+    },
+    "mag": {
+      "bx": -0.17,
+      "by": -1.56,
+      "bz": -3.86,
+      "bt": 4.95,
+      "time": "2026-10-08T16:15:00",
+      "source": "SOLAR1"
+    },
+    "xray": {
+      "flux": 1.17887702799635e-06,
+      "time": "2026-10-09T16:12:00Z"
+    }
+  },
+  "forecast": {
+    "kp_3day": [
+      {
+        "time": "2026-10-11T12:00:00",
+        "kp": 5.67,
+        "observed": "predicted",
+        "scale": "G2"
+      },
+      {
+        "time": "2026-10-11T15:00:00",
+        "kp": 5.33,
+        "observed": "predicted",
+        "scale": "G1"
+      },
+      {
+        "time": "2026-10-10T00:00:00",
+        "kp": 3.67,
+        "observed": "predicted",
+        "scale": ""
+      },
+      {
+        "time": "2026-10-10T03:00:00",
+        "kp": 4.67,
+        "observed": "predicted",
+        "scale": "G1"
+      },
+      {
+        "time": "2026-10-10T06:00:00",
+        "kp": 3.67,
+        "observed": "predicted",
+        "scale": ""
+      },
+      {
+        "time": "2026-10-10T09:00:00",
+        "kp": 3.67,
+        "observed": "predicted",
+        "scale": ""
+      },
+      {
+        "time": "2026-10-10T12:00:00",
+        "kp": 3.67,
+        "observed": "predicted",
+        "scale": ""
+      },
+      {
+        "time": "2026-10-10T15:00:00",
+        "kp": 3.33,
+        "observed": "predicted",
+        "scale": ""
+      },
+      {
+        "time": "2026-10-10T18:00:00",
+        "kp": 3.33,
+        "observed": "predicted",
+        "scale": ""
+      },
+      {
+        "time": "2026-10-10T21:00:00",
+        "kp": 3.67,
+        "observed": "predicted",
+        "scale": ""
+      },
+      {
+        "time": "2026-10-11T00:00:00",
+        "kp": 3.67,
+        "observed": "predicted",
+        "scale": ""
+      },
+      {
+        "time": "2026-10-11T03:00:00",
+        "kp": 3.67,
+        "observed": "predicted",
+        "scale": ""
+      },
+      {
+        "time": "2026-10-11T06:00:00",
+        "kp": 3.67,
+        "observed": "predicted",
+        "scale": ""
+      },
+      {
+        "time": "2026-10-11T09:00:00",
+        "kp": 4.0,
+        "observed": "predicted",
+        "scale": ""
+      },
+      {
+        "time": "2026-10-11T18:00:00",
+        "kp": 4.67,
+        "observed": "predicted",
+        "scale": "G1"
+      },
+      {
+        "time": "2026-10-11T21:00:00",
+        "kp": 4.67,
+        "observed": "predicted",
+        "scale": "G1"
+      },
+      {
+        "time": "2026-10-12T00:00:00",
+        "kp": 3.67,
+        "observed": "predicted",
+        "scale": ""
+      }
+    ],
+    "max_kp_forecast": 5.67
+  },
+  "omni_indices": {
+    "dst": {
+      "value": -17.0,
+      "time": "2026-10-09T15:00:00"
+    },
+    "f107": {
+      "value": 112.0,
+      "time": "2026-08-29T17:00:00"
+    },
+    "ae": {
+      "error": "source bloquee (CDAWeb)"
+    }
+  },
+  "alerts": [
+    {
+      "product_id": "K04A",
+      "issue_datetime": "2026-09-14 18:02:37.693",
+      "message": "Space Weather Message Code: ALTK04\r\nSerial Number: 2683\r\nIssue Time: 2026 Sep 14 1802 UTC\r\n\r\nALERT: Geomagnetic K-index of 4 \nThreshold Reached: 2026 Sep 14 1743 UTC\nSynoptic Period: 1500-1800\nActive Warning: YES\nComment: \r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
+    },
+    {
+      "product_id": "K04W",
+      "issue_datetime": "2026-09-14 16:54:02.200",
+      "message": "Space Weather Message Code: WARK04\r\nSerial Number: 5416\r\nIssue Time: 2026 Sep 14 1654 UTC\r\n\r\nWARNING: Geomagnetic K-index of 4 expected \nValid From: 2026 Sep 14 1653 UTC\nValid To: 2026 Sep 14 2349 UTC\nWarning Conditions: Onset\nComment: \r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 65 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nAurora - Aurora may be visible at high latitudes such as Canada and Alaska."
+    },
+    {
+      "product_id": "A20F",
+      "issue_datetime": "2026-09-14 15:47:26.890",
+      "message": "Space Weather Message Code: WATA20\r\nSerial Number: 1124\r\nIssue Time: 2026 Sep 14 1547 UTC\r\n\r\nWATCH: Geomagnetic Storm Category G1 Predicted \nHighest Storm Level Predicted by Day:\nSep 15:  G1 (Minor)   Sep 16:  G1 (Minor)   Sep 17:  None (Below G1)   \nTHIS SUPERSEDES ANY/ALL PRIOR WATCHES IN EFFECT\nComment: \r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 60 degrees Geomagnetic Latitude.\r\nInduced Currents - Weak power grid fluctuations can occur.\r\nSpacecraft - Minor impact on satellite operations possible.\r\nAurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine."
+    },
+    {
+      "product_id": "EF3A",
+      "issue_datetime": "2026-09-14 11:03:04.607",
+      "message": "Space Weather Message Code: ALTEF3\r\nSerial Number: 3744\r\nIssue Time: 2026 Sep 14 1103 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1,000pfu\nContinuation of Serial Number: 3743\nBegin Time: 2026 Sep 10 1304 UTC\n\nYesterday Maximum 2MeV Flux: 1827 pfu\nMax time: 2026 Sep 13 1800 UTC"
+    },
+    {
+      "product_id": "EF3A",
+      "issue_datetime": "2026-09-13 08:27:29.123",
+      "message": "Space Weather Message Code: ALTEF3\r\nSerial Number: 3743\r\nIssue Time: 2026 Sep 13 0827 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1,000pfu\nContinuation of Serial Number: 3742\nBegin Time: 2026 Sep 10 1304 UTC\n\nYesterday Maximum 2MeV Flux: 1828 pfu\nMax time: 2026 Sep 12 1615 UTC"
+    },
+    {
+      "product_id": "EF3A",
+      "issue_datetime": "2026-09-12 06:45:35.603",
+      "message": "Space Weather Message Code: ALTEF3\r\nSerial Number: 3742\r\nIssue Time: 2026 Sep 12 0645 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1,000pfu\nContinuation of Serial Number: 3741\nBegin Time: 2026 Sep 10 1304 UTC\n\nYesterday Maximum 2MeV Flux: 7008 pfu\nMax time: 2026 Sep 11 1355 UTC"
+    },
+    {
+      "product_id": "EF3A",
+      "issue_datetime": "2026-09-11 05:01:52.037",
+      "message": "Space Weather Message Code: ALTEF3\r\nSerial Number: 3741\r\nIssue Time: 2026 Sep 11 0501 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1,000pfu\nContinuation of Serial Number: 3740\nBegin Time: 2026 Sep 10 1304 UTC\n\nYesterday Maximum 2MeV Flux: 1391 pfu\nMax time: 2026 Sep 11 0455 UTC"
+    },
+    {
+      "product_id": "EF3A",
+      "issue_datetime": "2026-09-11 00:45:33.580",
+      "message": "Space Weather Message Code: ALTEF3\r\nSerial Number: 3740\r\nIssue Time: 2026 Sep 11 0045 UTC\r\n\r\nCONTINUED ALERT: Electron 2MeV Integral Flux exceeded 1,000pfu\nContinuation of Serial Number: 3739\nBegin Time: 2026 Sep 10 1304 UTC\n\nYesterday Maximum 2MeV Flux: 3080 pfu\nMax time: 2026 Sep 10 1745 UTC"
+    },
+    {
+      "product_id": "EF3A",
+      "issue_datetime": "2026-09-10 13:06:18.310",
+      "message": "Space Weather Message Code: ALTEF3\r\nSerial Number: 3739\r\nIssue Time: 2026 Sep 10 1306 UTC\r\n\r\nALERT: Electron 2MeV Integral Flux exceeded 1,000pfu \nThreshold Reached: 2026 Sep 10 1304 UTC\nStation: GOES-19\nComment: Yesterday's max: 1037 pfu\n"
+    },
+    {
+      "product_id": "A30F",
+      "issue_datetime": "2026-09-09 21:01:32.307",
+      "message": "Space Weather Message Code: WATA30\r\nSerial Number: 282\r\nIssue Time: 2026 Sep 09 2101 UTC\r\n\r\nCANCEL WATCH: Geomagnetic Storm Category G2 Predicted \nCancel Serial Number: 281\nOriginal Issue Time: 2026 Sep 08 1702 UTC\nCancelled Level Predicted:\nSep 08  : None (Bellow G1)  Sep 09  : None (Bellow G1)  Sep 10  : None (Bellow G1)  \nConditions no longer warrant watch criteria.\r\n\r\nNOAA Space Weather Scale descriptions can be found at\r\nwww.swpc.noaa.gov/noaa-scales-explanation\r\n\r\nPotential Impacts: Area of impact primarily poleward of 55 degrees Geomagnetic Latitude.\r\nInduced Currents - Power grid fluctuations can occur. High-latitude power systems may experience voltage alarms.\r\nSpacecraft - Satellite orientation irregularities may occur; increased drag on low Earth-orbit satellites is possible.\r\nRadio - HF (high frequency) radio propagation can fade at higher latitudes.\r\nAurora - Aurora may be seen as low as New York to Wisconsin to Washington state."
+    }
+  ],
+  "solar_regions": [
+    {
+      "num": "4549",
+      "location": "N10W41",
+      "area": "290",
+      "mag_class": "BGD",
+      "spot_class": "Eki"
+    },
+    {
+      "num": "4551",
+      "location": "S13E71",
+      "area": "170",
+      "mag_class": "B",
+      "spot_class": "Dso"
+    },
+    {
+      "num": "4527",
+      "location": "N03W0*",
+      "area": "130",
+      "mag_class": "A",
+      "spot_class": "Hax"
+    },
+    {
+      "num": "4528",
+      "location": "S11W97",
+      "area": "120",
+      "mag_class": "A",
+      "spot_class": "Hsx"
+    },
+    {
+      "num": "4536",
+      "location": "N02W0*",
+      "area": "100",
+      "mag_class": "B",
+      "spot_class": "Cso"
+    },
+    {
+      "num": "4548",
+      "location": "S13W14",
+      "area": "40",
+      "mag_class": "A",
+      "spot_class": "Hsx"
+    },
+    {
+      "num": "4545",
+      "location": "N18W46",
+      "area": "40",
+      "mag_class": "B",
+      "spot_class": "Dro"
+    },
+    {
+      "num": "4535",
+      "location": "N12W97",
+      "area": "30",
+      "mag_class": "A",
+      "spot_class": "Hsx"
+    },
+    {
+      "num": "4534",
+      "location": "N10W0*",
+      "area": "20",
+      "mag_class": "B",
+      "spot_class": "Cro"
+    },
+    {
+      "num": "4521",
+      "location": "N09W0*",
+      "area": "20",
+      "mag_class": "A",
+      "spot_class": "Hsx"
+    },
+    {
+      "num": "4547",
+      "location": "N15W0*",
+      "area": "0",
+      "mag_class": "?",
+      "spot_class": null
+    },
+    {
+      "num": "4550",
+      "location": "S16W51",
+      "area": "0",
+      "mag_class": "?",
+      "spot_class": null
+    }
+  ],
+  "summary": {
+    "kp_current": 2.0,
+    "max_kp_forecast": 5.67,
+    "xray_class": "C",
+    "xray_flux": 1.17887702799635e-06,
+    "alerts_count": 10,
+    "active_regions_count": 12
+  }
+}

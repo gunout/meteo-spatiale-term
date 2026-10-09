@@ -1,0 +1,27 @@
+{
+  "sources": {
+    "noaa_swpc": "https://services.swpc.noaa.gov",
+    "nasa_donki": "https://ccmc.gsfc.nasa.gov/DONKI-API/get"
+  },
+  "refresh_seconds": 60,
+  "donki_days": 7,
+  "thresholds": {
+    "kp_alert": 5,
+    "flare_alert_class": "M",
+    "cme_speed_alert": 500
+  },
+  "endpoints": {
+    "realtime": [
+      "products/noaa-planetary-k-index.json",
+      "products/solar-wind/plasma-7-day.json",
+      "products/solar-wind/mag-7-day.json",
+      "json/goes/primary/xrays-7-day.json"
+    ],
+    "donki": ["FLR", "CME", "GST", "SEP"]
+  },
+  "export": {
+    "enabled": true,
+    "dir": "export",
+    "keep_last": 50
+  }
+}
